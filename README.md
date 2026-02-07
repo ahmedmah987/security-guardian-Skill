@@ -21,18 +21,31 @@ In the evolving AI ecosystem, **SKILL.md** files and agent configurations are of
 - **Language**: Advanced Bash (optimized for performance and portability).
 - **Security Standards**: PKI (Public Key Infrastructure) best practices.
 
-## 📦 Quick Start
+## 🚀 Installation & Quick Start
 
+### 1. The Easy Way (One-Step Setup)
+If you are on Linux, macOS, or WSL, simply run:
 ```bash
-# Initialize the security infrastructure
-security-guardian setup
-
-# Secure a skill file (Encrypt & Sign)
-security-guardian secure ./skills/my-agent-skill/SKILL.md
-
-# Verify integrity before execution
-security-guardian verify my-agent-skill [timestamp]
+chmod +x setup.sh && ./setup.sh
 ```
+*This will automatically check for dependencies, install the tool, and prepare your security environment.*
+
+### 2. Manual Installation
+If you prefer to do it step-by-step:
+1. **Prepare the script:** `chmod +x src/security-guardian`
+2. **Move to your binaries:** `sudo cp src/security-guardian /usr/local/bin/`
+3. **Initialize:** `security-guardian setup`
+
+---
+
+## 📋 Basic Usage for Beginners
+
+| Command | What it does (Simple English) |
+|:--- |:--- |
+| `security-guardian setup` | Creates your digital "safe" and security keys. |
+| `security-guardian secure <file>` | Encrypts and locks your skill file with a signature. |
+| `security-guardian verify <name>` | Checks if the file is still safe and hasn't been tampered with. |
+| `security-guardian audit` | Scans all your skills to find any "vulnerable" ones. |
 
 ## ⚙️ Configuration & Portability
 Security Guardian is designed to be highly portable:
