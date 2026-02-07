@@ -43,4 +43,4 @@ Security Guardian is designed to be highly portable:
 ---
 
 ## 🛡️ "Security is not a feature, it's a foundation."
-This project sets a new standard for AI skill safety, particularly in the Arabic-speaking AI developer community, bridging the gap in supply chain security.
+This project sets a new standard for AI skill safety, providing a robust solution for the global AI developer community to bridge the gap in supply chain security.
