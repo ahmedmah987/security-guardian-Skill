@@ -12,7 +12,7 @@ In the evolving AI ecosystem, **SKILL.md** files and agent configurations are of
 - ✍️ **Digital Signatures**: RSA-4096 signing to ensure the authenticity and integrity of AI skills.
 - 🔒 **Military-Grade Encryption**: AES-256-CBC content protection for sensitive agent logic and data.
 - 📋 **Comprehensive Auditing**: Built-in security audit system to detect unsigned or tampered skills across your workspace.
-- 🌍 **Full Portability**: Automatically handles environment-specific paths and detects cross-platform dependencies (Linux, macOS, WSL).
+- 🌍 **Full Portability**: Automatically handles environment-specific paths and detects cross-platform dependencies (**Linux, macOS, and Windows via WSL/Git Bash**).
 - 🤖 **Agent-Ready**: Designed to be integrated directly into AI Agent workflows (OpenClaw compatible).
 
 ### 🔧 Technical Stack
@@ -23,14 +23,23 @@ In the evolving AI ecosystem, **SKILL.md** files and agent configurations are of
 
 ## 🚀 Installation & Quick Start
 
-### 1. The Easy Way (One-Step Setup)
-If you are on Linux, macOS, or WSL, simply run:
+### 1. Linux & macOS
+Simply run:
 ```bash
 chmod +x setup.sh && ./setup.sh
 ```
-*This will automatically check for dependencies, install the tool, and prepare your security environment.*
 
-### 2. Manual Installation
+### 2. Windows Users
+Security Guardian runs perfectly on Windows using:
+- **WSL (Windows Subsystem for Linux):** Recommended for full performance.
+- **Git Bash:** Included with [Git for Windows](https://git-scm.com/download/win).
+
+**To install on Windows:**
+1. Open Git Bash or your WSL Terminal.
+2. Navigate to the project folder.
+3. Run: `./setup.sh`
+
+### 3. Manual Installation
 If you prefer to do it step-by-step:
 1. **Prepare the script:** `chmod +x src/security-guardian`
 2. **Move to your binaries:** `sudo cp src/security-guardian /usr/local/bin/`
