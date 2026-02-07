@@ -1,0 +1,26 @@
+# Security Keys (CRITICAL)
+**/*.key
+**/*.crt
+**/*.csr
+**/*.srl
+**/*.pub
+**/*.p12
+**/*.pem
+
+# Security Data (Local infrastructure)
+.security-guardian/
+.openclaw/workspace/security/
+
+# Logs
+**/*.log
+**/*.audit.json
+
+# Packages & Dist
+dist/
+*.tar.gz
+*.zip
+
+# OS Files
+.DS_Store
+Thumbs.db
+node_modules/

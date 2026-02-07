@@ -1,0 +1,58 @@
+{
+  "name": "security-guardian",
+  "version": "1.0.0",
+  "description": "Advanced security system for AI skills - encryption, signing, verification, and supply chain protection",
+  "main": "security-guardian",
+  "bin": {
+    "security-guardian": "./security-guardian"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "./install.sh",
+    "setup": "./security-guardian setup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasehadecore/security-guardian.git"
+  },
+  "keywords": [
+    "security",
+    "encryption",
+    "signing",
+    "verification",
+    "supply-chain",
+    "ai-skills",
+    "protection",
+    "rsa",
+    "aes",
+    "certificates",
+    "openclaw",
+    "ai-security",
+    "supply-chain-security"
+  ],
+  "author": "Security Guardian Team <security@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nasehadecore/security-guardian/issues"
+  },
+  "homepage": "https://github.com/nasehadecore/security-guardian#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "systemDependencies": {
+    "openssl": ">=1.1.1",
+    "jq": ">=1.6",
+    "bash": ">=4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "preferGlobal": true,
+  "files": [
+    "security-guardian",
+    "install.sh",
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}
